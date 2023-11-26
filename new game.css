@@ -1,0 +1,100 @@
+body{
+  background-image: url("images/Free-RPG-Battleground-Asset-Pack2.jpg");
+}
+
+/* div{
+  width:100%;
+  float:end;
+  top:0;
+} */
+
+.player1 {
+right:0px;
+top:400px;
+height:35px;
+width:45px;
+float:right;
+}
+
+
+.player2 {
+  float:left;
+  left:0px;
+  top:400px;
+  height:35px;
+  width:45px;
+  
+  }
+  
+
+  p {
+
+    color:white;
+    text-align: center;
+    size:16in;
+  }
+
+.grid-container {
+  position: absolute;
+  width:100%;
+  height: 100vh;
+}
+
+
+.myRabit{
+  position: absolute;
+  width:150px;
+  height:250px;
+  right:0;
+  bottom:0;
+ 
+  border-radius: 50%;
+  animation: mymove 10s infinite;
+}
+
+
+
+.myTertal{
+  position: absolute;
+  width:150px;
+  height:250px;
+  right:0;
+  bottom:300px;
+  border-radius: 50%;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {right: 0px;}
+  to {right: 1250px;}
+  
+
+}
+
+.myFlag {
+  position: absolute;
+  width:150px;
+  height:250px;
+  left:120px;
+  bottom:210px;
+  border-radius: 50%;
+}
+
+
+a:link, a:visited {
+
+  position:absolute;
+  right:20px;
+  bottom:0px;
+  width:200px;
+  height:100px;
+  color:lightseagreen;
+  background-color: bisque;
+  border-radius:50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5ch;
+
+
+}

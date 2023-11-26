@@ -1,0 +1,87 @@
+body{
+    background-image: url("images/betterfly.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+  }
+  
+  
+h1 {
+margin-top: 10ch;
+font-size: 15ch;
+color: darkgreen;
+text-align: center;
+
+
+}
+
+  
+  
+  
+  .myRabit{
+    position: absolute;
+    width:500px;
+    height:400px;
+    right:300px;
+    bottom:100px;
+     
+   
+    
+  }
+  
+.rabbit1 {
+
+    position:absolute;
+    right:300px;
+    bottom:100px;
+    width:200px;
+    height:100px;
+    color:lightseagreen;
+    background-color: bisque;
+    border-radius:50%;
+
+  }
+  
+  .myTurtle{
+    position: absolute;
+    width:600px;
+    height:450px;
+    left:350px;
+    bottom:100px;
+    
+  }
+  
+  .turtle{
+
+    position:absolute;
+    left:400px;
+    bottom:100px;
+    width:200px;
+    height:100px;
+    color:lightseagreen;
+    background-color: bisque;
+    border-radius:50%;
+
+  }
+  
+  
+  a:link, a:visited {
+
+    position:absolute;
+    right:20px;
+    bottom:0px;
+    width:200px;
+    height:100px;
+    color:lightseagreen;
+    background-color: bisque;
+    border-radius:50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5ch;
+
+
+  }
+  
+  
